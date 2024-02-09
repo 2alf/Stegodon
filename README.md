@@ -19,7 +19,7 @@ https://www.nuget.org/packages/Stegodon
 ### Encrypt
 
 Encrypt() takes 2 arguments. First is `Bitmap` and the seocond one is a `string`.
-```
+```cs
 // Example
 string imagePath = "path/to/your/img.jpg"
 string secretMsg = "p@55w0rd"
@@ -33,7 +33,7 @@ Output is a prompt to save your image as a `.png` file.
 
 Decrypt() takes a Bitmap argument.
 In the below example we assume that the user wants to decrypt a string from an image. 
-```
+```cs
 // Example
 string imagePath = openFileDialog.FileName;
 Bitmap chosenImg = new Bitmap(imagePath);
