@@ -24,7 +24,7 @@ Encrypt() takes 2 arguments. First is `Bitmap` and the seocond one is a `string`
 string imagePath = "path/to/your/img.jpg"
 string secretMsg = "p@55w0rd"
 
-Bitmap encryptedImage = Steganography.Encrypt(new Bitmap(imagePath), secretMsg);
+Bitmap encryptedImage = Stegodon.Encrypt(new Bitmap(imagePath), secretMsg);
 ```
 
 Output is a prompt to save your image as a `.png` file. 
@@ -38,7 +38,7 @@ In the below example we assume that the user wants to decrypt a string from an i
 string imagePath = openFileDialog.FileName;
 Bitmap chosenImg = new Bitmap(imagePath);
 
-Steganography.Decrypt(chosenImg);
+Stegodon.Decrypt(chosenImg);
 ```
 
 Output is the decrypted string.
