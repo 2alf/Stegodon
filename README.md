@@ -1,5 +1,5 @@
 # Stegodon
-A C# steganography library with encryption and decryption.
+A C# steganography library with encryption and decryption for the .NET Framework.
 
 
 
@@ -10,4 +10,35 @@ A C# steganography library with encryption and decryption.
 
 https://www.nuget.org/packages/Stegodon
 
-README WIP
+# README IS WIP
+
+
+## Usage
+
+
+### Encrypt
+
+Encrypt() takes 2 arguments. First is `Bitmap` and the seocond one is a `string`.
+```
+// Example
+string imagePath = "path/to/your/img.jpg"
+string secretMsg = "p@55w0rd"
+
+Bitmap encryptedImage = Steganography.Encrypt(new Bitmap(imagePath), secretMsg);
+```
+
+Output is a prompt to save your image as a `.png` file. 
+
+### Decrypt
+
+Decrypt() takes a Bitmap argument.
+In the below example we assume that the user wants to decrypt a string from an image. 
+```
+// Example
+string imagePath = openFileDialog.FileName;
+Bitmap chosenImg = new Bitmap(imagePath);
+
+Steganography.Decrypt(chosenImg);
+```
+
+Output is the decrypted string.
