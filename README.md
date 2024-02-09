@@ -8,4 +8,6 @@ A C# steganography library with encryption and decryption.
 
 ### Made from scratch for the purpose of building the Leonardo Desktop App.
 
+https://www.nuget.org/packages/Stegodon
+
 README WIP
