@@ -6,7 +6,7 @@ A C# steganography library with encryption and decryption for the .NET Framework
 ![icon](https://github.com/2alf/Stegodon/assets/113948114/19a39ef0-98a8-477c-8657-8dc4412f13fa)
 
 
-### Made from scratch for the purpose of building the Leonardo Desktop App.
+### Made from scratch for the purpose of building the [Leonardo Desktop App](https://github.com/2alf/Leonardo).
 
 https://www.nuget.org/packages/Stegodon
 
