@@ -1,6 +1,6 @@
 # README IS WIP
 # Stegodon
-A C# steganography library with encryption and decryption for the .NET Framework.
+
 Quick and easy C# steganography library for encrypting and decrypting strings into image files when building .NET Framework apps.
 
 
