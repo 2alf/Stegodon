@@ -1,20 +1,53 @@
+# README IS WIP
 # Stegodon
 A C# steganography library with encryption and decryption for the .NET Framework.
+Quick and easy C# steganography library for encrypting and decrypting strings into image files when building .NET Framework apps.
 
 
 
-![icon](https://github.com/2alf/Stegodon/assets/113948114/19a39ef0-98a8-477c-8657-8dc4412f13fa)
+<img src="https://github.com/2alf/Stegodon/assets/113948114/2706e52d-e42b-4eb9-a3a6-54157230de66" width="250"/>
 
 
 ### Made from scratch for the purpose of building the [Leonardo Desktop App](https://github.com/2alf/Leonardo).
 
-https://www.nuget.org/packages/Stegodon
+## Contents:
 
-# README IS WIP
+>[Download](#download)
+
+>[Usage](#usage)
+
+>[Further info](#further-info)
+
+## Download
+
+### DLL Binary
+
+>[Github](https://github.com/2alf/Stegodon/releases)
+
+>[NuGet](https://www.nuget.org/packages/Stegodon)
+
+### .NET Cli
+
+```bash
+dotnet add package Stegodon
+```
+
+### Visual studio:
+
+Right click on your project solution and go to your NuGet package manager.
+
+
+<img src="https://github.com/2alf/Stegodon/assets/113948114/45de3351-2bfd-410a-8925-fc60526538e9" width="550"/>
+
+
+<img src="https://github.com/2alf/Stegodon/assets/113948114/5ee88f00-b6d2-4921-a9b8-93c425e4c8c9" width="550"/>
 
 
 ## Usage
 
+>[Encrypt](#encrypt)
+
+>[Decrypt](#decrypt)
 
 ### Encrypt
 
@@ -42,3 +75,5 @@ Stegodon.Decrypt(chosenImg);
 ```
 
 Output is the decrypted string.
+
+## Further info
