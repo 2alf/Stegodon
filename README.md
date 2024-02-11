@@ -80,3 +80,4 @@ Stegodon.Decrypt(chosenImg);
 Output is the decrypted string.
 
 ## Further info
+The solution I made isn’t anything new and broad, but it is concentrated in allowing users to use steganography easily to encrypt and decrypt strings into and from image files. The encryption process first normalizes the image making sure all pixel data is even to minimize error whilst injecting new bits into the file and to avoid breaking pixels. Then we just embed string binary data into the least significant bits of each RGB color channel. The decryption is simply extracting back information from the LSB of each channel.  
