@@ -3,6 +3,8 @@
 
 Quick and easy C# steganography library for encrypting and decrypting strings into image files when building .NET Framework apps.
 
+![NuGet Downloads](https://img.shields.io/nuget/dt/Stegodon?style=for-the-badge&color=43%2C%20255%2C%200)
+
 
 
 <img src="https://github.com/2alf/Stegodon/assets/113948114/2706e52d-e42b-4eb9-a3a6-54157230de66" width="250"/>
