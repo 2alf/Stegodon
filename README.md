@@ -8,8 +8,6 @@ Quick and easy C# steganography library for encrypting and decrypting strings in
 
 
 
-![NuGet Downloads](https://img.shields.io/nuget/dt/Stegodon?style=for-the-badge&logo=c%23&logoColor=%2350FF00&color=%2350FF00)
-
 <img src="https://github.com/2alf/Stegodon/assets/113948114/2706e52d-e42b-4eb9-a3a6-54157230de66" width="250"/>
 
 
