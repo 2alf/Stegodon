@@ -1,4 +1,3 @@
-# README IS WIP
 # Stegodon
 
 Quick and easy C# steganography library for encrypting and decrypting strings into image files when building .NET Framework apps.
@@ -53,6 +52,10 @@ Right click on your project solution and go to your NuGet package manager.
 
 >[Decrypt](#decrypt)
 
+>[Text to binary](#text2binary)
+
+>>[Binary to text](#binary2text)
+
 ### Encrypt
 
 Encrypt() takes 2 arguments. First is `Bitmap` and the seocond one is a `string`.
@@ -79,6 +82,16 @@ Stegodon.Decrypt(chosenImg);
 ```
 
 Output is the decrypted string.
+
+### Text2binary
+
+```Txt2Bin(string text)```
+Converts a string into a binary format suitable for embedding into an image.
+
+### Binary2text
+```Bin2Txt(string binaryMessage)```
+Converts a binary string back into readable text.
+
 
 ## Further info
 The solution I made isn’t anything new and broad, but it is concentrated in allowing users to use steganography easily to encrypt and decrypt strings into and from image files. The encryption process first normalizes the image making sure all pixel data is even to minimize error whilst injecting new bits into the file and to avoid breaking pixels. Then we just embed string binary data into the least significant bits of each RGB color channel. The decryption is simply extracting back information from the LSB of each channel.  
